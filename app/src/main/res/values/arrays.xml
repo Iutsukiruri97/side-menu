@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="quest_type">
+        <item>@string/text_quest_type_bookticket</item>
+        <item>@string/text_quest_type_bookhotel</item>
+        <item>@string/text_quest_type_bookcar</item>
+    </string-array>
+</resources>

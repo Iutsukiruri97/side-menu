@@ -23,6 +23,7 @@ import yalantis.com.sidemenu.interfaces.Resourceble;
 import yalantis.com.sidemenu.interfaces.ScreenShotable;
 import yalantis.com.sidemenu.model.SlideMenuItem;
 import yalantis.com.sidemenu.sample.fragment.ContentFragment;
+import yalantis.com.sidemenu.sample.fragment.RouteSelectFragment;
 import yalantis.com.sidemenu.util.ViewAnimator;
 
 
@@ -34,13 +35,14 @@ public class MainActivity extends AppCompatActivity implements ViewAnimator.View
     private ViewAnimator viewAnimator;
     private int res = R.drawable.content_music;
     private LinearLayout linearLayout;
-
+    private RouteSelectFragment routeSelectFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         contentFragment = ContentFragment.newInstance(R.drawable.content_music);
+        routeSelectFragment = new RouteSelectFragment();
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.content_frame, contentFragment)
                 .commit();
