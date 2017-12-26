@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yalantis.com.sidemenu.sample.LoginActivity">
+
+    <EditText
+        android:id="@+id/userNameText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:inputType="text"
+        android:hint="@string/username"/>
+    <EditText
+        android:id="@+id/userPassText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/userNameText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:hint="@string/password"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/userPassText"
+        android:layout_centerHorizontal="true"
+        android:text="@string/login"
+        android:textSize="20dp"
+        android:onClick="LoginClick"
+        android:layout_marginTop="20dp" />
+
+
+
+
+
+</RelativeLayout>

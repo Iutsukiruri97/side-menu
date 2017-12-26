@@ -11,6 +11,8 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import yalantis.com.sidemenu.sample.fragment.QuestFragment;
+import yalantis.com.sidemenu.sample.fragment.RouteSelectFragment;
 import yalantis.com.sidemenu.sample.fragment.UserFragment;
 
 public class MainActivity extends AppCompatActivity {
@@ -42,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
     {
         vp=findViewById(R.id.view_paper);
         fragments[0]=new UserFragment();
-        fragments[1]=new UserFragment();
-        fragments[2]=new UserFragment();
+        fragments[1]=new RouteSelectFragment();
+        fragments[2]=new QuestFragment();
         mAdapter=new FragmentPagerAdapter(getSupportFragmentManager()) {
             @Override
             public android.support.v4.app.Fragment getItem(int position) {
