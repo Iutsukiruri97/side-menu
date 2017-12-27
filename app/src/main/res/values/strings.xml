@@ -6,5 +6,39 @@
     <string name="drawer_open">Open</string>
     <string name="drawer_close">Close</string>
     <string name="title_activity_user_info">UserInfo</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="password">密码</string>
+    <string name="username">用户名</string>
+    <string name="login">登录</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_user">个人主页</string>
+    <string name="navigation_selector">发布委托</string>
+    <string name="navigation_ground">委托广场</string>
+    <string name="text_way">出行方式</string>
+    <string name="text_way_train">火车</string>
+    <string name="text_way_air">飞机</string>
+    <string name="text_plan">查询方案</string>
+    <string name="text_plan_time">时间最短</string>
+    <string name="text_plan_money">花费最少</string>
+    <string name="text_plan_station">停站最少</string>
+    <string name="text_query">查询</string>
+
+    <string name="text_quest_add">发布委托</string>
+    <string name="text_quest_square">委托广场</string>
+    <string name="text_quest_type">委托类型</string>
+    <string name="text_quest_loc">委托地点</string>
+    <string name="text_quest_cost">委托酬劳</string>
+    <string name="text_quest_deadline">完成时间</string>
+    <string name="text_quest_confirm">确认发布</string>
+    <string name="text_quest_accept">接受</string>
+    <string name="text_quest_my">我的委托</string>
+    <string name="text_quest_type_bookticket">景点购票</string>
+    <string name="text_quest_type_bookhotel">酒店预订</string>
+    <string name="text_quest_type_bookcar">出行拼车</string>
+
+    <string name="text_quest_sloc">搜索委托地点</string>
+    <string name="text_quest_filter">接受委托类型</string>
+    <string name="text_search">搜索</string>
 
 </resources>
