@@ -11,9 +11,10 @@
     <string name="username">用户名</string>
     <string name="login">登录</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+
+    <string name="navigation_user">个人主页</string>
+    <string name="navigation_selector">发布委托</string>
+    <string name="navigation_ground">委托广场</string>
     <string name="text_way">出行方式</string>
     <string name="text_way_train">火车</string>
     <string name="text_way_air">飞机</string>

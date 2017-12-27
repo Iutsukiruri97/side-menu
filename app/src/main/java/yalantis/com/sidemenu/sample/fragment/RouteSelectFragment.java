@@ -1,6 +1,7 @@
 package yalantis.com.sidemenu.sample.fragment;
 
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
+
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
